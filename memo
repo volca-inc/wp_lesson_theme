@@ -1,0 +1,168 @@
+<table class="inquiry">
+    <tr>
+        <th>
+            <span class="haveto">必須</span><span>お名前</span>
+        </th>
+        <td>
+            [text* your-name class:textsp placeholder"影影 男男"]
+        </td>
+    </tr>
+    <tr>
+        <th>
+            <span class="haveto">必須</span><span>メールアドレス</span>
+        </th>
+        <td>[email* your-email class:mailsp placeholder"lifecontroller@kagesai.net"]</td>
+    </tr>
+    <tr>
+        <th>
+            <span class="any">任意</span><span>電話番号</span>
+        </th>
+        <td>
+            [tel your-tel class:tel placeholder"090-1111-2222"]
+        </td>
+    </tr>
+    <tr>
+        <th>
+            <span class="haveto">必須</span><span>ドロップダウンメニュー</span>
+        </th>
+        <td>
+            [select* dpmenu include_blank class:drop "サンプル1" "サンプル2" "サンプル3"]
+        </td>
+    </tr>
+    <tr>
+        <th>
+            <span class="any">任意</span><span>チェックボックス横並び【１つを選択】</span>
+        </th>
+        <td>
+            [checkbox checkbox-1 exclusive use_label_element default:1 class:check1 "サンプル4" "サンプル5" "サンプル6"]
+        </td>
+    </tr>
+    <tr>
+        <th>
+            <span class="haveto">必須</span><span>チェックボックス横並び【複数を選択】</span>
+        </th>
+        <td>
+            [checkbox* checkbox-2 use_label_element default:1 class:check2 "サンプル7" "サンプル8" "サンプル9"]</td>
+    </tr>
+    <tr>
+        <th>
+            <span class="any">任意</span><span>チェックボックス縦並び【１つを選択】</span>
+        </th>
+        <td>
+            [checkbox checkbox-3 exclusive use_label_element default:1 class:verticallist class:check3 "サンプル10" "サンプル11" "サンプル12"]
+        </td>
+    </tr>
+    <tr>
+        <th>
+            <span class="haveto">必須</span><span>チェックボックス縦並び【複数を選択】</span>
+        </th>
+        <td>
+            [checkbox* checkbox-4 use_label_element default:1 class:verticallist class:check4 "サンプル13" "サンプル14" "サンプル15"]
+        </td>
+    </tr>
+    <tr>
+        <th>
+            <span class="any">任意</span><span>ラジオボタン横並び</span>
+        </th>
+        <td>
+            [radio radio-1 use_label_element default:1 class:radio1 "サンプル16""サンプル17""サンプル18"]
+        </td>
+    </tr>
+    <tr>
+        <th>
+            <span class="haveto">必須</span><span>ラジオボタン縦並び</span>
+        </th>
+        <td>
+            [radio radio-2 use_label_element default:1 class:verticallist class:radio2 "サンプル19""サンプル20""サンプル21"]
+        </td>
+    </tr>
+    <tr>
+        <th>
+            <span class="any">任意</span><span>数値のスピン形式</span>
+        </th>
+        <td>
+            [number number-1 min:10 max:100 placeholder class:number1 "数値の値は指定できる"]
+        </td>
+    </tr>
+    <tr>
+        <th>
+            <span class="haveto">必須</span><span>日付</span>
+        </th>
+        <td>
+            [date* date-960 placeholder class:datesp ]
+        </td>
+    </tr>
+    <tr>
+        <th>
+            <span class="any">任意</span><span>中級者向け回答形式のタグ</span>
+        </th>
+        <td>
+            [quiz quiz-1 class:qyizsp "質問：2019年に発表された新元号は？" "令和"]
+        </td>
+    </tr>
+    <tr>
+        <th>
+            <span class="haveto">必須</span><span>郵便番号</span>
+        </th>
+        <td>
+            [text* your-postalcode class:p-postal-code placeholder"123-4567"]
+        </td>
+    </tr>
+    <tr>
+        <th>
+            <span class="haveto">必須</span><span>都道府県</span>
+        </th>
+        <td>
+            [text* your-prefectures class:p-region placeholder"◯◯県"]
+        </td>
+    </tr>
+    <tr>
+        <th>
+            <span class="haveto">必須</span><span>ご住所</span>
+        </th>
+        <td>
+            [text* your-address class:p-locality placeholder"○○市○○1-2-3 ○○マンション 101号室"]
+        </td>
+    </tr>
+    <tr>
+        <th>
+            <span class="haveto">必須</span><span>お問い合わせ内容</span>
+        </th>
+        <td>
+            [textarea* your-message class:content placeholder "１行以上のテキスト入力欄"]
+        </td>
+    </tr>
+</table>
+        [acceptance acceptance-442 class:spam1]スパムメール防止のため、こちらのチェックボックスにチェックを入れてから送信してください。
+        [submit id:formbtn "上記の内容で送信する"]
+
+
+
+
+
+<ul class="inquiry">
+    <li>
+        <label class="family-name">
+            [text* your-family-name placeholder"性"]
+        </label>　
+    </li>
+    <li>
+        <label class="personal-name">
+            [text* your-personal-name placeholder"名"]
+        </label>
+    </li>
+    <li>
+        <label class="email">
+            [email* your-email placeholder"メールアドレス"]
+        </label>
+    </li>
+    <li>
+        <label class="message">
+            [textarea your-message placeholder"質問などはこちら（空欄でもOKです）"]
+        </label>
+    </li>
+    <li>
+        [submit "送信"]
+    </li>
+</ul>
+
