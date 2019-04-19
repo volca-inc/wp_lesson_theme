@@ -85,7 +85,7 @@ p {
 
 // header
 
-.header-wrapper {
+.header-inner {
   width: 1170px;
   padding: 20px;
   margin: auto;
@@ -124,7 +124,7 @@ p {
   align-items: center;
 }
 
-.fv-wrapper {
+.fv-inner {
   display: inline-block;
   text-align: center;
 }
@@ -136,7 +136,7 @@ p {
   align-items: center;
 }
 
-.conversion-wrapper{
+.conversion-inner{
   display: inline-block;
   text-align: center;
   color: white;
@@ -203,7 +203,7 @@ p {
   background-position: center;
   height: 587px;
 
-  .introduction-wrapper{
+  .introduction-inner{
     display: block;
     text-align: center;
 
@@ -278,7 +278,7 @@ p {
   height: 600px;
   text-align: center;
   padding: 100px 0;
-  .about-wrapper{
+  .about-inner{
     width: 1180px;
     text-align: center;
     margin: 0 auto;
@@ -300,7 +300,7 @@ p {
         display: block;
         width: 100%;
       }
-      .skill-wrapper{
+      .skill-inner{
         .box{
           display: inline-block;
           padding: 0 15px;
@@ -355,7 +355,7 @@ p {
     }
   }
 
-  .step-wrapper {
+  .step-inner {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -414,7 +414,7 @@ p {
   background-color: #fef5e0;
   padding: 30px 0;
   text-align: center;
-  .merit-title-wrapper{
+  .merit-title-inner{
     width: 860px;
     margin: 0 auto;
     padding: 20px 0;
@@ -424,7 +424,7 @@ p {
       padding: 0;
     }
   }
-  .merit-title-wrapper::before {
+  .merit-title-inner::before {
     top: 0;
     left: 0;
     border-top: 4px solid #ebb94d;
@@ -434,7 +434,7 @@ p {
     width: 50px;
     height: 50px;
   }
-  .merit-title-wrapper::after {
+  .merit-title-inner::after {
     bottom: 0;
     right: 0;
     border-bottom: 4px solid #ebb94d;
@@ -444,7 +444,7 @@ p {
     width: 50px;
     height: 50px;
   }
-  .merit-point-wrapper {
+  .merit-point-inner {
     width: 1170px;
     margin: 30px auto;
     display: flex;
@@ -497,7 +497,7 @@ p {
   }
   .teachers-text {
   }
-  .teacher-wrapper{
+  .teacher-inner{
     margin: 20px auto;
     display:flex;
     flex-wrap:wrap;
@@ -511,7 +511,7 @@ p {
         position: relative;
         top: 30px;
       }
-      .teacher-text-wrapper{
+      .teacher-text-inner{
         border: 2px solid white;
         padding: 50px 0;
 
@@ -602,7 +602,7 @@ p {
     padding: 20px;
     margin: 0;
   }
-  .client-wrapper{
+  .client-inner{
     width: 900px;
     margin: 0 auto;
     .client-unit{
@@ -615,7 +615,7 @@ p {
         border: solid;
         border-color: #ebb94d;
       }
-      .client-text-wrapper{
+      .client-text-inner{
         height: 250px;
         width: 550px;
         padding: 30px;
@@ -643,7 +643,7 @@ p {
   padding: 30px 0;
   .contents-title{}
   .contents-text{}
-  .content-wrapper{
+  .content-inner{
     width: 780px;
     margin: 0 auto;
     padding: 30px 0;
@@ -693,7 +693,7 @@ p {
   .flow-img{
     margin: 40px auto;
   }
-  .flow-wrapper{
+  .flow-inner{
     width: 1180px;
     margin: 0 auto;
     .flow-unit{
@@ -768,7 +768,7 @@ p {
     top: 30px;
     background-color: #f7c23c;
   }
-  .tokuten-wrapper{
+  .tokuten-inner{
     border: 2px solid #fff;
     padding: 50px;
     display: flex;
@@ -851,7 +851,7 @@ p {
     margin: 30px;
     font-weight: 600;
   }
-  .ceo-wrapper{
+  .ceo-inner{
     width: 980px;
     margin: 0 auto;
     text-align: left;

@@ -28,7 +28,7 @@
 
 <body <?php body_class(); ?>>
 <header>
-    <div class="header-wrapper">
+    <div class="header-inner">
         <img class="header-logo" src="wp-content/themes/wp_lesson_theme/img/logo.png" alt="画像">
         <p class="header-sab-title">バンコクのノマドエンジニア育成講座</p>
         <div class="cvbtn-header">

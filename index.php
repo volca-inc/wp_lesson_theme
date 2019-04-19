@@ -15,7 +15,7 @@
 get_header();
 ?>
     <section class="fv">
-        <div class="fv-wrapper">
+        <div class="fv-inner">
             <p class="textl">プログラミングで</p>
             <p class="textl">人生の安定を手にいれよう</p>
             <img class="fv-logo" src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="画像">
@@ -25,7 +25,7 @@ get_header();
     </section>
 
     <section class="conversion">
-        <div class="conversion-wrapper">
+        <div class="conversion-inner">
             <p class="textm">まずは２０日間で、<br>月１０万円稼げるスキルを手にいれよう。</p>
             <p class="highlight-txt">※受講料金は実質０円です。詳しくは資料請求をどうぞ。</p>
             <div class="cvbtn-conversion">
@@ -43,7 +43,7 @@ get_header();
     </section>
 
     <section class="introduction">
-        <div class="introduction-wrapper">
+        <div class="introduction-inner">
             <div class="yellow-brackets-wide">
                 <div class="textl">エンジニアとして本当の自由を手に入れるためには？</div>
             </div>
@@ -56,14 +56,14 @@ get_header();
     <div class="about-icon"><p class="about-circle">ABOUT</p></div>
 
     <section class="about">
-        <div class="about-wrapper">
+        <div class="about-inner">
             <div>
                 <p class="about-title textl">ノマドエンジニア育成講座<br>iSara[イサラ]とは</p>
             </div>
             <p class="textm about-text"> 「稼ぐこと」にフォーカスしたエンジニア育成講座です。</p>
             <div class="skill-box">
                 <p class="skill-box-title textm">稼げるエンジニアに必要な５つのスキルとは？</p>
-                <div class="skill-wrapper">
+                <div class="skill-inner">
                     <div class="box">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/skill.jpg" alt="スキル">
                         <span>基礎的な<br>プログラミングスキル</span>
@@ -95,7 +95,7 @@ get_header();
             <p class="textm">基本的なプログラミングスキルは無料で学べる時代。</p>
             <p class="textm">iSaraでは、基礎知識学習は<span class="font-yellow">事前課題</span>と<span class="font-yellow">チャットサポート</span>のみ。</p>
         </div>
-        <div class="step-wrapper">
+        <div class="step-inner">
             <div class="step-unit">
                 <p class="step-num">STEP.1</p>
                 <p class="step-lead">【バンコク渡航前１ヶ月】</p>
@@ -132,11 +132,11 @@ get_header();
     </section>
 
     <section class="merit">
-        <div class="merit-title-wrapper">
+        <div class="merit-title-inner">
             <p class="textm">他のプログラミングスクールとここが違う！</p>
             <p class="textl">iSara[イサラ]の３つのメリット</p>
         </div>
-        <div class="merit-point-wrapper">
+        <div class="merit-point-inner">
             <div class="merit-point-unit">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/learnfromfreelancer.jpg" alt="learnfromfreelancer">
                 <p class="unit-title textm">現役フリーランスから学べる</p>
@@ -164,10 +164,10 @@ get_header();
     <section class="teachers">
         <p class=" teachers-title textl"><i class="far fa-id-card"></i></i>運営メンバー</p>
         <p class="teachers-text texts">実際にフリーランスとして活躍しているエンジニアが運営しています</p>
-        <div class="teacher-wrapper">
+        <div class="teacher-inner">
             <div class="teacher-unit">
                 <img class="teacher-img" src="<?php echo get_template_directory_uri(); ?>/img/keisuke_someya.jpg" alt="keisuke_someya">
-                <div class="teacher-text-wrapper">
+                <div class="teacher-text-inner">
                     <p class="teacher-class">フリーランス講師（代表）</p>
                     <p class="teacher-name">染谷 佳佑</p>
                     <p class="teacher-info">ISARA (THAILAND) CO.,LTD.の代表です。学生起業の後にリクルートへ就職、その後独立し、海外移住しました。今はフリーランスとしてリモートワークで日本円を稼ぎ、外国通貨に変えて使い、海外を旅してます。営業、ブログPVアップ(最高月間150万PV)、ビジネス構築が専門です。</p>
@@ -175,7 +175,7 @@ get_header();
             </div>
             <div class="teacher-unit">
                 <img class="teacher-img" src="<?php echo get_template_directory_uri(); ?>/img/yuki.png" alt="yuki">
-                <div class="teacher-text-wrapper">
+                <div class="teacher-text-inner">
                     <p class="teacher-class">フリーランス講師（副代表）</p>
                     <p class="teacher-name">成田　雄輝</p>
                     <p class="teacher-info">バンコクのシェアハウスのオーナーをやりながら一年の大半をタイで過ごしています。 大学時代から今に至るまでネットだけで生計を立てているので、自由歴だけは講師陣の中で最長です！ 母親がタイ人という事もありタイには精通してますので、こちらでの生活のサポートはお任せください！</p>
@@ -183,7 +183,7 @@ get_header();
             </div>
             <div class="teacher-unit">
                 <img class="teacher-img" src="<?php echo get_template_directory_uri(); ?>/img/shohey.png" alt="shohey">
-                <div class="teacher-text-wrapper">
+                <div class="teacher-text-inner">
                     <p class="teacher-class">フリーランスエンジニア</p>
                     <p class="teacher-name">大滝　昇平</p>
                     <p class="teacher-info">月の半分は東京の会社にリモートで勤めつつ、フリーでも活動しているノマドWebディレクター兼エンジニアです。Laravel・WordPressでのWeb制作がコアスキル。会社員とフリーランス、２つの顔があるからこそ、両方の側面からお話できるかと思います。宜しくお願いします！</p>
@@ -191,7 +191,7 @@ get_header();
             </div>
             <div class="teacher-unit">
                 <img class="teacher-img" src="<?php echo get_template_directory_uri(); ?>/img/manabu.png" alt="manabu">
-                <div class="teacher-text-wrapper">
+                <div class="teacher-text-inner">
                     <p class="teacher-class">フリーランスエンジニア</p>
                     <p class="teacher-name">坂内　学</p>
                     <p class="teacher-info">ITとセブ島とお酒を愛しています。新卒で海外就職して１１ヶ月後に退職。今は日本にいたり海外にいたりでゆるくフリーランスをしています。<br><br>お仕事はWebマーケティングとプログラミングが専門領域です。</p>
@@ -213,24 +213,24 @@ get_header();
         <p class="answer-title textl">実現可能です</p>
         <p class="answer-lead texts">その証拠に第三者の声を聞いてみました。</p>
         <p class="answer-text texts">＊実際にフリーランスエンジニアを採用する企業様から、メッセージをいただきました。</p>
-        <div class="client-wrapper">
+        <div class="client-inner">
             <div class="client-unit">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/take.jpg" alt="take">
-                <div class="client-text-wrapper">
+                <div class="client-text-inner">
                     <p class="client-comment">リモートワークという言葉がありますが、弊社では何も気にしません。エンジニアに求めるのは、快適なコミュニケーションと信頼と成果物のみ。</p>
                     <p class="client-name">Kredo IT Abroad . Inc 代表取締役 横田 猛夫</p>
                 </div>
             </div>
             <div class="client-unit">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/minami_sato.jpg" alt="minami_sato">
-                <div class="client-text-wrapper">
+                <div class="client-text-inner">
                     <p class="client-comment">社内でスキルのある人材を採用するのは難しい。外部パートナーとして継続的に依頼できるフリーランスには助かっています。</p>
                     <p class="client-name">SAPEUR . Inc 代表取締役 佐藤 陽</p>
                 </div>
             </div>
             <div class="client-unit">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/asada.jpg" alt="asada">
-                <div class="client-text-wrapper">
+                <div class="client-text-inner">
                     <p class="client-comment">プログラマーが足りていないときに外部リソースとして、フリーランスに発注しています。今はどこの会社でもエンジニアが不足していますね。</p>
                     <p class="client-name">株式会社BeautifulWorks 代表取締役 淺田 百合</p>
                 </div>
@@ -241,7 +241,7 @@ get_header();
     <section class="isara-contents">
         <p class="contents-title textl">iSara[イサラ]で学べる内容</p>
         <p class="contents-text">渡航前の事前課題と渡航中に学べることの一覧です。</p>
-        <div class="content-wrapper">
+        <div class="content-inner">
             <div class="content-unit">
                 <p class="content-title textm">渡航前の事前学習</p>
                 <ul class="content-list">
@@ -278,7 +278,7 @@ get_header();
     <section class="apply-flow">
         <p class="flow-title textl"><i class="fas fa-laptop"></i>受講の流れ</p>
         <img class="flow-img" src="<?php echo get_template_directory_uri(); ?>/img/flow.jpg" alt="flow">
-        <div class="flow-wrapper">
+        <div class="flow-inner">
             <div class="flow-unit skype">
                 <div class="flow-unit-left">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/skype.png" alt="skype">
@@ -356,7 +356,7 @@ get_header();
         <p class="special-title textl"><i class="fas fa-gift"></i>iSara受講生への参加特典</p>
         <p class="special-text"><span class="font-white">講座費用248,000円以上の金額が稼げるまでの「永久サポート延長」</span> を追加します。つまり、<span class="font-white">実質０円</span>です。</p>
         <p class="zero-yen-title textl">iSaraは『実質０円』！更なる特典もあります。</p>
-        <div class="tokuten-wrapper">
+        <div class="tokuten-inner">
             <div class="tokuten-unit">
                 <p class="tokuten-title textl">特典１</p>
                 <p class="tokuten-text texts">講座費用248,000円以上の金額が稼げるまで、「永久サポート延長」。リスク０で参加できます。</p>
@@ -386,7 +386,7 @@ get_header();
     <section class="message">
         <p class="message-title textl">創業者からのメッセージ</p>
         <p class="massage-text textm">「一生もののスキル」を身につけ、ノマドライフを楽しもう！</p>
-        <div class="ceo-wrapper">
+        <div class="ceo-inner">
             <img src="<?php echo get_template_directory_uri(); ?>/img/ceo.jpg" alt="ceo" class="ceo">
             <p class="ceo-text texts">初めまして。「iSara（イサラ）」創業者の染谷佳佑と申します。<br>iSaraの開講は、僕達講師陣にとってもとても大きな挑戦です。今回、参加者に圧倒的な価値提供をするために、超少人数制だからできる内容を用意しました。<br><br>・「プログラミングで稼ぐ」に特化した超実践的カリキュラム<br>・フリーランスとして生計を立て、いつでも世界中を旅できるスキル、収入のある講師陣のみを厳選<br>・講座参加者が24万8,000円の参加費以上を稼ぐまでの無期限サポート延長<br><br>ここまでのカリキュラムを備えた講座は、世界で唯一iSaraだけでしょう。 iSaraでプログラミングを学ぶことで、「一生ものの潰しが効くスキル」が間違いなく身につきます。 もちろん勉強だけでなく、バンコクを楽しめるプログラムも用意しています！<br><br>３ヶ月間徹底的にサポートします。ぜひバンコクでお会いしましょう。</p>
         </div>
