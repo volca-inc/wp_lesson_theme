@@ -698,50 +698,34 @@ p {
       letter-spacing: 10px; }
 
 .qa {
-  padding: 50px 300px; }
+  padding: 50px; }
   .qa .qa-title {
     text-align: center; }
-  .qa .accordion1 li {
-    position: relative; }
-  .qa .accordion1 li::before {
-    font-family: "Font Awesome 5 Free";
-    content: "\f059";
-    position: absolute;
-    font-weight: 400;
-    top: 8px;
-    left: -12px;
-    font-size: 20px;
-    color: #016ea9; }
+  .qa .accordion1 {
+    margin: 30px auto;
+    width: 70%; }
+    .qa .accordion1 .question {
+      position: relative;
+      font-size: 20px;
+      font-weight: 600; }
+    .qa .accordion1 .question::before {
+      font-family: "Font Awesome 5 Free";
+      content: "\f059";
+      position: absolute;
+      font-weight: 400;
+      top: 8px;
+      left: -12px;
+      font-size: 20px;
+      color: #016ea9; }
+    .qa .accordion1 .inner .answer {
+      text-align: left;
+      margin-bottom: 30px; }
   .qa .accordion1 .inner {
     display: none; }
   .qa .accordion1 p {
     cursor: pointer;
     padding: 10px; }
-  .qa .accordion1 p.ac1 {
-    background: white; }
-  .qa .accordion1 p.ac2 {
-    background: white; }
-  .qa .accordion1 p.ac3 {
-    background: white; }
   .qa .accordion1 .inner li {
     padding: 10px 0; }
-  .qa .accordion1 .inner li.content1-1 {
-    background: white; }
-  .qa .accordion1 .inner li.content1-2 {
-    background: white; }
-  .qa .accordion1 .inner li.content1-3 {
-    background: white; }
-  .qa .accordion1 .inner li.content2-1 {
-    background: white; }
-  .qa .accordion1 .inner li.content2-2 {
-    background: white; }
-  .qa .accordion1 .inner li.content2-3 {
-    background: white; }
-  .qa .accordion1 .inner li.content3-1 {
-    background: white; }
-  .qa .accordion1 .inner li.content3-2 {
-    background: white; }
-  .qa .accordion1 .inner li.content3-3 {
-    background: white; }
 
 /*# sourceMappingURL=style.css.map */
