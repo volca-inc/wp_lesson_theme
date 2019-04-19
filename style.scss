@@ -928,15 +928,19 @@ p {
 
 
 .qa {
-  padding: 50px 300px;
+  padding: 50px;
   .qa-title {
     text-align: center;
   }
   .accordion1 {
-    li {
+    margin: 30px auto;
+    width: 70%;
+    .question {
       position: relative;
+      font-size: 20px;
+      font-weight: 600;
     }
-    li::before{
+    .question::before{
       font-family: "Font Awesome 5 Free";
       content: "\f059";
       position: absolute;
@@ -946,22 +950,17 @@ p {
       font-size: 20px;
       color: #016ea9;
     }
+    .inner{
+      .answer{
+        text-align: left;
+        margin-bottom: 30px;
+      }
+    }
   }
   .accordion1 .inner {display: none;}
   .accordion1 p{cursor: pointer; padding: 10px;}
-  .accordion1 p.ac1{background: white;}
-  .accordion1 p.ac2{background: white;;}
-  .accordion1 p.ac3{background: white;;}
   .accordion1 .inner li{padding: 10px 0;}
-  .accordion1 .inner li.content1-1{background: white;}
-  .accordion1 .inner li.content1-2{background: white;}
-  .accordion1 .inner li.content1-3{background: white;}
-  .accordion1 .inner li.content2-1{background: white;}
-  .accordion1 .inner li.content2-2{background: white;}
-  .accordion1 .inner li.content2-3{background: white;}
-  .accordion1 .inner li.content3-1{background: white;}
-  .accordion1 .inner li.content3-2{background: white;}
-  .accordion1 .inner li.content3-3{background: white;}
+
 }
 
 

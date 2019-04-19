@@ -404,82 +404,94 @@ get_header();
 <section class="qa">
     <p class="qa-title textl"><i class="far fa-envelope-open"></i>よくある質問</p>
     <ul class="accordion1">
-        <li>
-            <p class="ac1">就職、転職はできますか？</p>
+        <li class="qa-unit">
+            <p class="question">プログラミングスキルは必要ですか？</p>
             <ul class="inner">
-                <li class="content1-1">DODAの調査によると、2017年のエンジニアの求人倍率は7.5倍です。これは、人材不足が叫ばれる医療業界（医師：6倍、看護師：3倍）よりも高い数値です。ですのできちんとしたスキルを身につけることができれば、就職・転職には困らないはずです。元リクルートの転職のプロも運営スタッフとして参加しています。</li>
+                <li class="answer">いいえ、必要ありません。しかし、iSaraでは参加費以上の金額が稼げることを保障しています。 従って、事前通話面談時点で簡単なテストを実施し、場合によってはお断りをしております。この点だけはご了承ください。</li>
             </ul>
         </li>
-        <li>
-            <p class="ac2">フリーランスにならなければならないのですか？</p>
+        <li class="qa-unit">
+            <p class="question">参加費以上に稼げなかったらどうなりますか？</p>
             <ul class="inner">
-                <li class="content2-1">いいえ、必ずフリーランスにならないといけないわけではありません。 エンジニアの需要は右肩上がりで上がっていますので、スキルがあれば就職の間口も非常に大きいです。</li>
+                <li class="answer">参加費である248,000円以上の金額をトータルで稼ぐまで、無期限でサポート延長いたします。（講座参加後、週30時間以上の実践をすることと、週１回の実践報告をすることが延長条件です。）きちんと学び実践すれば、フリーランスでも収入を作ることは十分に可能です。</li>
             </ul>
         </li>
-        <li>
-            <p class="ac3">ノマドワーカー的に世界を旅しながら働きたいです。可能ですか？</p>
+        <li class="qa-unit">
+            <p class="question">滞在中の宿泊先はどうなりますか？</p>
             <ul class="inner">
-                <li class="content3-1">きちんと努力し、スキルを身に着けることができれば可能です。 iSaraは、「好きなときに働き、好きなときに遊ぶ」という人生を送れる人を増やすために開講しました。 ちなみに、講師は全員ノマドワーカーとして、働きながら自由に世界中を旅しています。</li>
+                <li class="answer">宿泊費用が必要ですが、iSara専用のシェアハウス・ホステルに宿泊することになりますので心配はありません。</li>
             </ul>
         </li>
-        <li>
-            <p class="q1">質問</p>
+        <li class="qa-unit">
+            <p class="question">滞在中の食事どうなりますか？</p>
             <ul class="inner">
-                <li class="a1">答え</li>
+                <li class="answer">拠点となる新築シェアハウスの周辺に、50バーツ程度の（150円）安価な飲食店が多数あります。 日本食レストランもありますし、出前を取ることも可能です。</li>
             </ul>
         </li>
-        <li>
-            <p class="q1">質問</p>
+        <li class="qa-unit">
+            <p class="question">追加でかかる費用はありますか？</p>
             <ul class="inner">
-                <li class="a1">答え</li>
+                <li class="answer">宿泊費（トータル20000円）と食費（一食150円程度）くらいです。</li>
             </ul>
         </li>
-        <li>
-            <p class="q1">質問</p>
+        <li class="qa-unit">
+            <p class="question">就職、転職はできますか？</p>
             <ul class="inner">
-                <li class="a1">答え</li>
+                <li class="answer">DODAの調査によると、2017年のエンジニアの求人倍率は7.5倍です。これは、人材不足が叫ばれる医療業界（医師：6倍、看護師：3倍）よりも高い数値です。ですのできちんとしたスキルを身につけることができれば、就職・転職には困らないはずです。元リクルートの転職のプロも運営スタッフとして参加しています。</li>
             </ul>
         </li>
-        <li>
-            <p class="q1">質問</p>
+        <li class="qa-unit">
+            <p class="question">フリーランスにならなければならないのですか？</p>
             <ul class="inner">
-                <li class="a1">答え</li>
+                <li class="answer">いいえ、必ずフリーランスにならないといけないわけではありません。 エンジニアの需要は右肩上がりで上がっていますので、スキルがあれば就職の間口も非常に大きいです。</li>
             </ul>
         </li>
-        <li>
-            <p class="q1">質問</p>
+        <li class="qa-unit">
+            <p class="question">ノマドワーカー的に世界を旅しながら働きたいです。可能ですか？</p>
             <ul class="inner">
-                <li class="a1">答え</li>
+                <li class="answer">きちんと努力し、スキルを身に着けることができれば可能です。 iSaraは、「好きなときに働き、好きなときに遊ぶ」という人生を送れる人を増やすために開講しました。 ちなみに、講師は全員ノマドワーカーとして、働きながら自由に世界中を旅しています。</li>
             </ul>
         </li>
-        <li>
-            <p class="q1">質問</p>
+        <li class="qa-unit">
+            <p class="question">学ぶプログラミング言語はなんですか？</p>
             <ul class="inner">
-                <li class="a1">答え</li>
+                <li class="answer">HTML / CSS / PHPを学びます。どの言語も需要が高いです。</li>
             </ul>
         </li>
-        <li>
-            <p class="q1">質問</p>
+        <li class="qa-unit">
+            <p class="question">将来的にwebサービス、アプリ、メディアを作りたいです。</p>
             <ul class="inner">
-                <li class="a1">答え</li>
+                <li class="answer">経験してる講師がいますよ。大丈夫です。</li>
             </ul>
         </li>
-        <li>
-            <p class="q1">質問</p>
+        <li class="qa-unit">
+            <p class="question">次回開催の予定はありますか？</p>
             <ul class="inner">
-                <li class="a1">答え</li>
+                <li class="answer">未定です。まずはお問合せください。</li>
             </ul>
         </li>
-        <li>
-            <p class="q1">質問</p>
+        <li class="qa-unit">
+            <p class="question">海外に出るのが初めてで不安です。</p>
             <ul class="inner">
-                <li class="a1">答え</li>
+                <li class="answer">講師陣が現地での生活をサポートしますので安心してください。ただしパスポート取得は必要です。</li>
             </ul>
         </li>
-        <li>
-            <p class="q1">質問</p>
+        <li class="qa-unit">
+            <p class="question">タイ語、英語が一切話せません。参加可能でしょうか。</p>
             <ul class="inner">
-                <li class="a1">答え</li>
+                <li class="answer">タイ語スタッフ、英語スタッフがいるのでOKです。日本人、タイ人スタッフがおりますので、期間中のトラブル対応の心配は必要ありません。</li>
+            </ul>
+        </li>
+        <li class="qa-unit">
+            <p class="question">治安はどうですか？</p>
+            <ul class="inner">
+                <li class="answer">バンコクは、東南アジアや南アジアの他の国の都市部と比べると、街中も整備されており、非常に治安の良い街です。日本ほどではないですが、世界でも非常に治安の良い国として知られています。</li>
+            </ul>
+        </li>
+        <li class="qa-unit">
+            <p class="question">パソコンは必要ですか？</p>
+            <ul class="inner">
+                <li class="answer">Macをご準備ください。</li>
             </ul>
         </li>
     </ul>
